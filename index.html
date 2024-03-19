@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>FORMULARIO INSCRIPCIÓN</h1>
+    <fieldset>
+        <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Por favor escriba su nombre aqui">
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Por favor escriba apellido">
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" placeholder="Por favor indique su edad">
+            <br>
+            <br>
+            <label for="rh">Tipo de sangre: </label>
+            <select name="rh" id="rh">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O-">O-</option>
+                <option value="O+">O+</option>
+            </select>
+            <br>
+            <br>
+            <label for="correo">Correoo:</label>
+            <input type="email" name="correo" id="correo">
+            <br>
+            <br>
+            <label for="sexo">Sexo: </label>
+            <label for="masculino">Masculino</label>           
+            <input type="radio" name="masculino" id="masculino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="femenino" id="femenino">
+            <label for="indefinido">Indefinido</label>
+            <input type="radio" name="indefinido" id="indefinido">
+            <label for="otro">Otro:</label>
+            <input type="text" name="otro" id="otro">
+            <br>
+            <br>
+            <label for="estatura">Estatura: </label>
+            <input type="number" name="estatura" id="estatura" min="1" step="0.01" max="2.50">
+            <br>
+            <br>
+            <label for="escolaridad">Nivel academico:</label>
+            <select name="escolaridad" id="escoalridad">
+                <option value="ninguno">Ninguno</option>
+                <option value="primaria">Primaria</option>
+                <option value="bachiller">Bachiller</option>
+                <option value="profesional">Profesional</option>
+                <option value="especialista">Especialista</option>
+                <option value="maestro">Maestro</option>
+                <option value="doctorado">Doctorado</option>
+            </select>
+            <br>
+            <br>
+            <label for="hobbies">Hobbies:</label>
+            <br>
+            <input type="checkbox" id="hobbies" name="hobbies">
+            <label for="hobbies">Viajar</label>
+            <br>
+            <input type="checkbox" id="hobbies" name="hobbies">
+            <label for="hobbies">Cine</label>           
+            <br>
+            <input type="checkbox" id="hobbies" name="hobbies">
+            <label for="hobbies">Videojuegos</label>            
+            <br>
+            <input type="checkbox" id="hobbies" name="hobbies">
+            <label for="hobbies">Deporte</label>           
+            <br>
+            <input type="checkbox" id="hobbies" name="hobbies">
+            <label for="hobbies">Leer</label>           
+            <br>
+            <input type="checkbox" id="hobbies" name="hobbies">
+            <label for="hobbies">Escribir</label>            
+            <br>
+            <label for="hobbies">Otro</label>
+            <input type="text" id="hobbies" name="hobbies">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+    </fieldset>
+
+
+
+    
+</body>
+</html>
